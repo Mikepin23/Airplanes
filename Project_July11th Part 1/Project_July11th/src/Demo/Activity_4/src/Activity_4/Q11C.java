@@ -1,0 +1,26 @@
+package Activity_4;
+
+import java.util.Scanner;
+
+public class Q11C {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner kb = new Scanner(System.in);
+        
+		System.out.print("Enter the number of lines: ");
+        int num = kb.nextInt();
+
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
+        kb.close();
+
+	}
+
+}
